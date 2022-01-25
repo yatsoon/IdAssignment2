@@ -1,8 +1,10 @@
 # IdAssignment2
 Educational Website
+
 The website is for primary school students, essentially the website will be used to teach students the basics to english, math and science. We plan to make a game where students have to answer the questions in order to gain points and be on a leaderboard.
 
 Design Process
+
 The website is for primary school students. The website allows the students to learn and to have fun as well while answering the questions and learning from them and at the same time they get to compete for the top spot in the leaderboards
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
