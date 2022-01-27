@@ -2,71 +2,135 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "At noon, johnny went for his grandparents' house for __________",
+    answer: "lunch",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "lunch",
+      "breakfast",
+      "dinner",
+      "supper"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "The cake was so _________ that thirty people could eat it.",
+    answer: "big",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "big",
+      "small",
+      "tiny",
+      "heavy"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Father wanted to ________ some peanut butter on the bread with a knife.",
+    answer: "spread",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "spread",
+      "scooped",
+      "sprinkled",
+      "shake"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "The _________ can fly?",
+    answer: "bird",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "bird",
+      "lion",
+      "kangaroo",
+      "elephant"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "The sheep and its _______ were playing in the field.",
+    answer: "lamb",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "calf",
+      "foal",
+      "lamb",
+      "parrot"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+  {
+    numb: 6,
+    question: "Walking through the ________, mary saw a monkey on top of a tree.",
+    answer: "jungle",
+    options: [
+      "river",
+      "jungle",
+      "tunnel",
+      "road"
+    ]
+  },
+    {
+        numb: 7,
+        question: "Ken and I ________ best friends. We always play together.",
+        answer: "are",
+        options: [
+        "were",
+        "are",
+        "is",
+        "am"
+        ]
+    },
+    {
+        numb: 8,
+        question: "The chef added _________ cheese to the pizza",
+        answer: "some",
+        options: [
+        "a few",
+        "some",
+        "many",
+        "tiny"
+        ]
+    },
+    {
+        numb: 9,
+        question: "Last night, my brother ____________ off his bed and injured his foot",
+        answer: "jumped",
+        options: [
+          "jumps",
+          "jumped",
+          "jumping",
+          "hopping"
+        ]
+      },
+      {
+        numb: 10,
+        question: "Eat healthily _______ you may fall sick, said mother.",
+        answer: "or",
+        options: [
+          "or",
+          "so",
+          "and",
+          "may"
+        ]
+      },
+      {
+      numb: 11,
+      question: "We should not look directly at ________ sun as the strong rays will hurt our eyes.",
+      answer: "the",
+      options: [
+        "the",
+        "a",
+        "an",
+        "and"
+      ]
+    },
+        {
+        numb: 12,
+        question: "Ali is playing with his new toy. _______ is having fun",
+        answer: "he",
+        options: [
+        "she",
+        "I",
+        "It",
+        "he"
+        ]
+    },
+  
 ];
