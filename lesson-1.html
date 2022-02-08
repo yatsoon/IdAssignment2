@@ -5,7 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Lesson 1 page</title>
-	<link href="contact.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link href="lesson-1.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -15,15 +18,106 @@
     <p>Well vocabulary is the body of words used in a language</p>
     <p>The best way to improve on our vocabulary is by reading, using a dictionary or practicing new words while talking.</p>
     <p>Here are a list of short stories that you may read in order to learn more vocabulary</p>
-    <ol>
-        <li>My name is James. I am eight years old. This is my bag. I have two pens, three pencils and one ruler. I am sitting on my chair in my classroom.</li>
-        <li>My name is Johnny. I eat breakfast in the morning, lunch during the afternoon and dinner at night. </li>
-        <li>A bakery bakes a small cake to feed a few people. A big cake is used to feed alot of people. A small cake is light in weight. A large cake is heavy in weight</li>
-        <li>My name is Mary. I use a knife to spread butter on bread. I scoop some icecream and put it on bread. I sprinkle my favourite rainbow sprinkles on the icecream. </li>
-        <li>The bird is flying in the air. The lion is walking on land. The dolphin swims on the ocean.</li>
-        <li>The dog's baby is called puppy. The chicken's baby is called chick. The sheep's baby is called Lamb.</li>
-        <li>Fishes can be found in the river. Monkeys can be found in the jungle. Birds can be found flying in the air or on the trees.</li>
-    </ol>
-<script src="contact.js"></script>
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 7</div>
+        <div class="text">Paragraph one</div>
+        <br>
+        <div class="ParaInSlides"><p>My name is James. I am eight years old. This is my bag. I have two pens, three pencils and one ruler. I am sitting on my chair in my classroom.</p></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 7</div>
+        <div class="text">Paragraph Two</div>
+        <br>
+        <div class="ParaInSlides"><p>My name is Johnny. I eat breakfast in the morning, lunch during the afternoon and dinner at night.</p></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 7</div>
+        <div class="text">Paragraph Three</div>
+        <br>
+        <div class="ParaInSlides"><p>A bakery bakes a small cake to feed a few people. A big cake is used to feed alot of people. A small cake is light in weight. A large cake is heavy in weight</p></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <div class="text">Paragraph Four</div>
+        <br>
+        <div class="ParaInSlides"><p>My name is Mary. I use a knife to spread butter on bread. I scoop some icecream and put it on bread. I sprinkle my favourite rainbow sprinkles on the icecream.</p></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <div class="text">Paragraph Five</div>
+        <br>
+        <div class="ParaInSlides"><p>The bird is flying in the air. The lion is walking on land. The dolphin swims on the ocean.</p></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <div class="text">Paragraph Six</div>
+        <br>
+        <div class="ParaInSlides"><p>The dog's baby is called puppy. The chicken's baby is called chick. The sheep's baby is called Lamb.</p></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <div class="text">Paragraph Seven</div>
+        <br>
+        <div class="ParaInSlides"><p>Fishes can be found in the river. Monkeys can be found in the jungle. Birds can be found flying in the air or on the trees.</p></div>
+      </div> 
+           <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+</div>
+
+    <div class="box">
+      <img src="images/b51b023b44d5e554b4eefb9c76b8a36c.gif" alt="animated wizard" style="width: 100px;height: 100px;" class="wizard">
+        <header>English Dictionary Wizard</header>
+        <div class="search">
+          <input type="text" placeholder="Search a word" required spellcheck="false">
+          <i class="fas fa-search"></i>
+          <span class="material-icons">close</span>
+        </div>
+        <p class="info-text">Hi welcome to the english dictionary wizard. Type any existing word and press enter to see the magic of knowledge.</p>
+        
+        <ul>
+          <li class="word">
+            <div class="details">
+              <p>__</p>
+              <span>_ _</span>
+            </div>
+            <i class="fas fa-volume-up"></i>
+          </li>
+          <div class="content">
+            <li class="meaning">
+              <div class="details">
+                <p>Meaning of the word</p>
+                <span>___</span>
+              </div>
+            </li>
+            <li class="example">
+              <div class="details">
+                <p>Here are some examples of the word being used in a sentence!</p>
+                <span>___</span>
+              </div>
+            </li>
+            <li class="synonyms">
+              <div class="details">
+                <p>Here are some synonyms of the word</p>
+                <div class="list"></div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+  
+    
+<script src="lesson-1.js"></script>
   </body>
 </html>
