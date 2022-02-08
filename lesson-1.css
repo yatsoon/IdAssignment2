@@ -1,11 +1,12 @@
+/*slideshow */
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   height: 100px;
-  width: 600px;
+  width: 40%;
   position: absolute;
-  margin: auto;
+  top: 800px;
   background-color: red;
 }
 
@@ -86,7 +87,10 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
+/*Main website css */
+body{
+    background-color: purple
+}
 /*dictionary css */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
@@ -97,12 +101,14 @@
 }
 .box{
   position: absolute;
-  width: 420px;
+  width: 600px;
   border-radius: 7px;
   background: #fff;
   padding: 25px 28px 45px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
-  top: 400px;
+  top: 200px;
+  right: 80px;
+  width: 40%;
 }
 .box header{
   font-size: 28px;
