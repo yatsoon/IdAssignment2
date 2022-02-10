@@ -53,4 +53,9 @@
  body{
      font-size: large;
  }
+
+ p {
+    margin-top: 1em ;
+    margin-bottom: 1em ;
+  }
   
