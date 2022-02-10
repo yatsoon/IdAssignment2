@@ -24,22 +24,21 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  /*dots[slideIndex-1].className += "active";*/
 }
 
 /*dictionary*/
-const box = document.querySelector(".box"),
-searchInput = box.querySelector("input"),
-volume = box.querySelector(".word i"),
-infoText = box.querySelector(".info-text"),
-synonyms = box.querySelector(".synonyms .list"),
-removeIcon = box.querySelector(".search span");
+const box1 = document.querySelector(".box1"),
+searchInput = box1.querySelector("input"),
+volume = box1.querySelector(".word i"),
+infoText = box1.querySelector(".info-text"),
+synonyms = box1.querySelector(".synonyms .list"),
+removeIcon = box1.querySelector(".search span");
 let audio;
 function data(result, word){
     if(result.title){
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
     }else{
-        box.classList.add("active");
+        box1.classList.add("active");
         let definitions = result[0].meanings[0].definitions[0],
         phontetics = `${result[0].meanings[0].partOfSpeech}  /${result[0].phonetics[0].text}/`;
         document.querySelector(".word p").innerText = result[0].word;
@@ -65,7 +64,7 @@ function search(word){
     searchInput.value = word;
 }
 function fetchApi(word){
-    box.classList.remove("active");
+    box1.classList.remove("active");
     infoText.style.color = "#000";
     infoText.innerHTML = `Searching the meaning of <span>"${word}"</span>`;
     let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
@@ -89,7 +88,7 @@ volume.addEventListener("click", ()=>{
 removeIcon.addEventListener("click", ()=>{
     searchInput.value = "";
     searchInput.focus();
-    box.classList.remove("active");
+    box1.classList.remove("active");
     infoText.style.color = "#9A9A9A";
     infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
 });

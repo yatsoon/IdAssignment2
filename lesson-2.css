@@ -5,13 +5,6 @@
     margin: 20px;
 }
 
-.heading {
-    background-color: black;
-    color: white;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-  }
 
   .container,.container2{
       display: flex;
@@ -51,11 +44,237 @@
  }
 
  body{
-     font-size: large;
+     font-size: medium;
  }
 
  p {
     margin-top: 1em ;
     margin-bottom: 1em ;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.container,.container2{
+  display: flex;
+  flex-direction: row;
+
+}
+.flex-item{
+
+flex-grow: 1;
+flex-basis: 15%;
+display: flex;
+flex-direction: column;
+border: 1px solid purple;
+border-style: outset;
+border-radius: 7px;
+padding: 1px;
+padding: 20px;
+
+}
+
+
+.flex-item2{
+ 
+ flex-grow: 1;
+ flex-basis: 15%;
+ display: flex;
+ flex-direction: column;
+ border: 1px solid purple;
+ border-style: outset;
+ border-radius: 7px;
+ padding: 20px;
+
+}
+
+p {
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+}
+
+/* Grey header at the top of the screen */
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 9%;
+  background: #5f5f5f;
+}
+
+/* Logo of the header */
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.header .logo i {
+  color: #16070e;
+}
+
+.header .navbar ul {
+  list-style: none;
+}
+
+.header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.header .navbar ul li:hover ul {
+  display: block;
+}
+
+.header .navbar ul li a {
+  padding: 2rem;
+  display: block;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.header .navbar ul li a:hover {
+  background: #00790a;
+}
+
+/* List for Lessons page and header page */
+.header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 20rem;
+  background: #c0bd05;
+  display: none;
+}
+
+.header .navbar ul li ul li {
+  width: 100%;
+}
+
+#menu-btn {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2.5rem;
+  display: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+/* css for footer */
+.footer {
+    background: #f5f5f5;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #666;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer .credit span {
+    color: #1b0691;
+  }
+
+  /*resizing*/
+  @media (max-width: 768px) {
+    #menu-btn {
+      display: inline-block;
+    }
+    .header {
+      padding: 2rem;
+    }
+    .header .navbar {
+      position: absolute;
+      top: 99%;
+      left: 0;
+      right: 0;
+      background: #224bcf;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar ul li {
+      width: 100%;
+    }
+    .header .navbar ul li ul {
+      width: 100%;
+      position: relative;
+    }
+    .about .content h3 {
+      font-size: 3rem;
+    }
+    .main-video video {
+      width: 95%;
+      border-width: .2rem;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+
+
   }
   
