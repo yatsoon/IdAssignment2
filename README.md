@@ -5,20 +5,17 @@ The website is for primary school students, essentially the website will be used
 
 Design Process
 
-The website is for primary school students. The website allows the students to learn and to have fun as well while answering the questions and learning from them and at the same time they get to compete for the top spot in the leaderboards
+The website is for primary school students. The website allows the students to learn more about grammar and vocabulary and also allows students to test themselves with the quiz website. It also allows parents or guardians of the students to find out more about their children's school and also to contact them.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
-
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Feature 1 - Quiz website, allows students to test themselves with a 12 question mcq.
+
+Feature 2 - Dictionary api, allows students to search up the meaning of words.
+
+Feature 3 Navigation bar to allow students and parents to navigate the site easily.
+
+Feature 4 slideshow of short paragraphs for students to read in order to improve on their english.
 
 Features Left to Implement
 Another feature idea
