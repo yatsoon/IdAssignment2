@@ -57,6 +57,7 @@ lesson 1 page slideshow paragraph 6 https://shubhyouber.com/animals-and-their-yo
 lesson 1 page slideshow paragraph 7 https://en.islcollective.com/english-esl-worksheets/vocabulary/animals/animals-and-their-habitat-pictionary/3670
 
 lesson 1 page dictionary https://www.pinterest.com/pin/451345193902116949/
+
 Acknowledgements
 I received inspiration for this project from 
 Quiz webpage: https://sgexam.com/primary-1-english/ (rosyth p1 2019 test1)
