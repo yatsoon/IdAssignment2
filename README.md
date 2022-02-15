@@ -1,7 +1,10 @@
 # IdAssignment2
 Educational Website
+
 Github link https://github.com/yatsoon/IdAssignment2
+
 Contributions
+
 Quiz,contact us,Lesson 1,Lesson 2 pages (Yat Soon)
 
 The website is for the lower primary school students, essentially the website will be used to teach students the basics to english, math and science. We plan to make a game where students have to answer the questions in order to gain points and be on a leaderboard.
