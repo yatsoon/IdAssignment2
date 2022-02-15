@@ -39,18 +39,28 @@ Name field can have numbers, Contact number field can have letters, if email is 
 Credits
 Content
 The information for the lesson1 page (vocabulary) was taken from https://www.englishclub.com/vocabulary/
+
 The information for the lesson2 page (grammar) was taken from tips on improving grammar (https://osuwritingcenter.okstate.edu/blog/2020/12/4/5-tips-to-improve-your-grammar) and grammar rules (https://7esl.com/grammar-rules/)
 Media
 lesson 1 page slideshow paragraph 1 https://in.pinterest.com/pin/469922542374972431/
+
 lesson 1 page slideshow paragraph 2 https://www.dreamstime.com/illustration/breakfast-lunch-dinner.html
+
 lesson 1 page slideshow paragraph 3 https://www.istockphoto.com/illustrations/big-and-small-cake
+
 lesson 1 page slideshow paragraph 4 https://www.post-gazette.com/life/recipes/2019/07/10/ice-cream-sandwiches-bread-rolls-brioche-waffles/stories/201907100001
+
 lesson 1 page slideshow paragraph 5 https://www.seekpng.com/ipng/u2q8e6w7a9r5q8w7_cartoon-bird-flying-cute-cartoon-bird-flying/
+
 lesson 1 page slideshow paragraph 6 https://shubhyouber.com/animals-and-their-young-ones/
+
 lesson 1 page slideshow paragraph 7 https://en.islcollective.com/english-esl-worksheets/vocabulary/animals/animals-and-their-habitat-pictionary/3670
+
 lesson 1 page dictionary https://www.pinterest.com/pin/451345193902116949/
 Acknowledgements
 I received inspiration for this project from 
 Quiz webpage: https://sgexam.com/primary-1-english/ (rosyth p1 2019 test1)
+
 Lesson1 page Dictionary: https://www.codingnepalweb.com/build-dictionary-app-html-javascript/
+
 Lesson1 page Slideshow: https://www.w3schools.com/howto/howto_js_slideshow.asp
