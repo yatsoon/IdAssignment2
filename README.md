@@ -6,6 +6,7 @@ Github link https://github.com/yatsoon/IdAssignment2
 Contributions
 
 Quiz,contact us,Lesson 1,Lesson 2 pages (Yat Soon)
+About and Home pages (Joey)
 
 The website is for the lower primary school students, essentially the website will be used to teach students the basics to english, math and science. We plan to make a game where students have to answer the questions in order to gain points and be on a leaderboard.
 
@@ -23,8 +24,11 @@ Feature 3 - Navigation bar to allow students and parents to navigate the site ea
 
 Feature 4 - Slideshow of short paragraphs for students to read in order to improve on their english.
 
+Feature 5 - A few pictures to summarize what the website can teach
+
 Features Left to Implement
-Implement more slideshows, and also create other subjects website. Because now we only have the english education website. 
+Implement more slideshows, and also create other subjects website. Because now we only have the english education website.
+Can add more navigation buttons to allow users to maneuver around the website
 
 Technologies Used
 Restdb. It was used to gather data of the parents contact information.
@@ -37,9 +41,15 @@ Lesson 1, Lesson 2, Contact us, Quiz Page:
 Resizing added for mobile page
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
+Home and about page:
+Resizing added for mobile page
+
 Problems:
 Contact form:
 Name field can have numbers, Contact number field can have letters, if email is not an email the form would not update, if any of the fileds are not filled in the form will not update.
+
+Home page:
+Get started button does not lead the user to another page.
 
 
 Credits
@@ -71,3 +81,6 @@ Quiz webpage: https://sgexam.com/primary-1-english/ (rosyth p1 2019 test1)
 Lesson1 page Dictionary: https://www.codingnepalweb.com/build-dictionary-app-html-javascript/
 
 Lesson1 page Slideshow: https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+Home and about page inspiration
+https://www.youtube.com/watch?v=RamIl-pjGE4
